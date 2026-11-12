@@ -4,7 +4,7 @@ Peça o nome do usuário com `prompt()` e chame a função.*/
 
 
 function saudacao(nome) {
-     let nome = window.prompt("Insira seu nome:");
+     nome = window.prompt("Insira seu nome:");
     
      let mensagem = `Olá, ${nome}! Bem-vindo(a) à aula!`;
 
@@ -12,5 +12,5 @@ function saudacao(nome) {
 
 }
 
-console.log(saudacao('Larocas'));
+console.log(saudacao());
 
